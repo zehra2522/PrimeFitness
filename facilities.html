@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Anton+SC&family=Bree+Serif&family=Geostar&family=Luckiest+Guy&family=Orbitron:wght@400..900&family=Oxanium:wght@200..800&family=Zilla+Slab+Highlight:wght@400;700&display=swap"
+    rel="stylesheet">
+  <style>
+    .logo {
+      height: 120px;
+      width: 120px;
+    }
+
+    .container-fluid {
+      background-color: rgb(7, 14, 40);
+
+
+
+    }
+
+    .custom-color {
+      color: white;
+    }
+
+    .custom-color:hover {
+      color: rgb(190, 181, 181);
+
+    }
+
+    .dropdown-divider {
+      border-top: 2px solid black;
+      margin: 5px 0;
+    }
+
+    .custom-color2 {
+      background: rgb(7, 14, 40);
+
+    }
+
+    .custom-color2:hover {
+      color: rgb(190, 181, 181);
+
+    }
+
+    .navbar {
+      z-index: 10;
+    }
+
+    .container-1 {
+      height: 20vh;
+      width: 100%;
+      background: linear-gradient(rgb(7, 14, 40) 0%, #194a9e 100%);
+      color: rgb(255, 255, 255);
+      margin-top: 30px;
+      text-align: center;
+      align-items: center;
+      justify-content: center;
+      display: flex;
+    }
+
+    h1 {
+      font-size: 3.3rem;
+      font-family: "Anton SC", sans-serif;
+      text-align: center;
+      letter-spacing: 5px;
+      align-items: center;
+    }
+    .custom-card {
+      text-align: center;
+      border: none;
+      justify-content: center;
+      align-items: center;
+      overflow: hidden;
+      
+      
+    }
+
+    .custom-card img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+      
+
+    }
+
+    .custom-card-title {
+      font-size: 1.25rem;
+      font-weight: bold;
+      
+    }
+
+    .custom-card-text {
+      font-size: 0.65rem;
+      color: black;
+      margin-bottom: 70px;
+      text-align: center;
+      
+    }
+
+    .custom-card-container-2 {
+      padding: 2rem 1rem;
+    }
+    .explore {
+      font-family: "Anton SC", sans-serif;
+      color: rgb(7, 14, 40);
+      font-weight: 300;
+      font-size: 3rem;
+    }
+
+
+    /* footer */
+    footer {
+      background-color: rgb(7, 14, 40);
+    }
+
+    .footer a:hover {
+      text-decoration: underline;
+    }
+
+    .footer img {
+      filter: grayscale(100%);
+      transition: filter 0.3s ease-in-out;
+    }
+
+    .footer img:hover {
+      filter: none;
+    }
+  </style>
+    
+    
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-teritary mt-0 pt-0">
+        <div class="container-fluid">
+          <!-- <a class="navbar-brand" href="#">Navbar scroll</a> -->
+          <img src="logo4.png" alt="" class="logo">
+    
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
+            aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarScroll">
+            <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+              <li class="nav-item">
+                <a class="nav-link custom-color " href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link custom-color " href="membership.html">Membership</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link custom-color " href="facilities.html">Facilities</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link custom-color " href="gallery.html">Gallery</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link custom-color " href="aboutus.html">About Us</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link custom-color " href="contactus.html">Contact Us</a>
+            </li>
+            </ul>
+            
+          </div>
+        </div>
+      </nav>
+
+      <!-- -->
+
+      <div class="container-1 ">
+        <h1>FACILITIES</h1>
+      </div>
+      <div class="container my-5">
+        <h2 class="explore text-center mb-5">GYM</h2>
+        <div class="row g-4">
+          <div class="col-md-6 col-lg-3">
+            <div class="custom-card">
+              <img src="treadmill.jpg" class="card-img-top" alt="FITNESS CLUB">
+              <div class="custom-card-container">
+                <h5 class="custom-card-title">TREADMILL</h5>
+                <p class="custom-card-text"> A treadmill offers a convenient indoor workout, allowing you to burn calories, improve cardiovascular health, and strengthen lower body muscles,</p>
+               
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3">
+            <div class="custom-card">
+              <img src="Pilates.jpg" class="card-img-top" alt="FITNESS CLUB">
+              <div class="custom-card-container">
+                <h5 class="custom-card-title">PILATES</h5>
+                <p class="custom-card-text">Pilates is a low-impact exercise that focuses on core strength, flexibility, and posture, helping you develop a strong and balanced physique.</p>
+                
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3">
+            <div class="custom-card">
+              <img src="airbike.jpg" class="card-img-top" alt="FITNESS CLUB">
+              <div class="custom-card-container">
+                <h5 class="custom-card-title">AIRBIKE</h5>
+                <p class="custom-card-text">The air resistance of an air bike creates a challenging and customizable workout, allowing you to burn calories, improve endurance, and tone your entire body.</p>
+                
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3">
+            <div class="custom-card">
+              <img src="battle ropes.jpg" class="card-img-top" alt="FITNESS CLUB">
+              <div class="custom-card-container">
+                <h5 class="custom-card-title">BATTLE ROPES</h5>
+                <p class="custom-card-text">By swinging, slamming, and twisting battle ropes, you can enhance strength, power, endurance, and coordination, while boosting cardiovascular health.</p>
+                
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container my-5">
+        <h2 class="explore text-center mb-5">GROUP EXERCISES</h2>
+        <div class="row g-4">
+          <div class="col-md-6 col-lg-3">
+            <div class="custom-card">
+              <img src="resistant bands.jpg" class="card-img-top" alt="FITNESS CLUB">
+              <div class="custom-card-container">
+                <h5 class="custom-card-title">RESISTANT BANDS</h5>
+                <p class="custom-card-text"> Strengthen and tone your body with our resistance band workouts, designed to enhance flexibility, endurance, and muscle strength in a fun group setting.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3">
+            <div class="custom-card">
+              <img src="yoga.png" class="card-img-top" alt="FITNESS CLUB">
+              <div class="custom-card-container">
+                <h5 class="custom-card-title">YOGA</h5>
+                <p class="custom-card-text">Find balance and serenity with our group yoga classes, designed to improve flexibility, strength, and mental well-being for all fitness levels.</p>
+                
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3">
+            <div class="custom-card">
+              <img src="meditation.jpeg" class="card-img-top" alt="FITNESS CLUB">
+              <div class="custom-card-container">
+                <h5 class="custom-card-title">MEDITATION</h5>
+                <p class="custom-card-text">Calm your mind and rejuvenate your spirit with our group meditation sessions, fostering relaxation, focus, and inner peace.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3">
+            <div class="custom-card">
+              <img src="circuit training.jpg" class="card-img-top" alt="FITNESS CLUB">
+              <div class="custom-card-container">
+                <h5 class="custom-card-title">CIRCUIT TRAINING</h5>
+                <p class="custom-card-text">Boost your strength with our energizing circuit training sessions, combining dynamic exercises for a full-body workout in a motivating group environment.</p>
+                
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container my-5">
+        <h2 class="explore text-center mb-5">SPA</h2>
+        <div class="row g-4">
+          <div class="col-md-6 col-lg-3">
+            <div class="custom-card">
+              <img src="hydra facial.jpg" class="card-img-top" alt="FITNESS CLUB">
+              <div class="custom-card-container">
+                <h5 class="custom-card-title">HYDRA-FACIAL</h5>
+                <p class="custom-card-text">The HydraFacial is a non-invasive treatment that deeply cleanses, exfoliates, and hydrates the skin, leaving it glowing and refreshed</p>
+               
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3">
+            <div class="custom-card">
+              <img src="hair treatments.jpg" class="card-img-top" alt="FITNESS CLUB">
+              <div class="custom-card-container">
+                <h5 class="custom-card-title">HAIR TREATMENTS</h5>
+                <p class="custom-card-text">Revitalize and nourish your hair with our luxurious treatments designed to restore shine, strength, and overall hair health.</p>
+                
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3">
+            <div class="custom-card">
+              <img src="massage.jpeg" class="card-img-top" alt="FITNESS CLUB">
+              <div class="custom-card-container">
+                <h5 class="custom-card-title">MASSAGE</h5>
+                <p class="custom-card-text">
+                    Relax and unwind with our soothing massages, tailored to relieve stress, ease tension, and rejuvenate your body and mind.</p>
+                
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3">
+            <div class="custom-card">
+              <img src="laser treatment.jpg" class="card-img-top" alt="FITNESS CLUB">
+              <div class="custom-card-container">
+                <h5 class="custom-card-title">LASER TREATMENT</h5>
+                <p class="custom-card-text">
+                    Achieve smooth, flawless skin with our advanced laser treatments, designed for effective hair removal and skin rejuvenation.</p>
+                
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    
+      <div class="container my-5">
+        <h2 class="explore text-center mb-5">SWIMMING & SPORTS</h2>
+        <div class="row g-4">
+          <div class="col-md-6 col-lg-3">
+            <div class="custom-card">
+              <img src="swimming.jpg" class="card-img-top" alt="FITNESS CLUB">
+              <div class="custom-card-container">
+                <h5 class="custom-card-title">SWIMMING</h5>
+                <p class="custom-card-text">Dive into fitness and fun with our pristine swimming facilities, perfect for relaxation, training, and family enjoyment.</p>
+               
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3">
+            <div class="custom-card">
+              <img src="sports.jpg" class="card-img-top" alt="FITNESS CLUB">
+              <div class="custom-card-container">
+                <h5 class="custom-card-title">BADMINTON</h5>
+                <p class="custom-card-text">Enjoy fast-paced excitement and friendly competition on our top-quality badminton courts, perfect for players of all skill levels.</p>
+                
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3">
+            <div class="custom-card">
+              <img src="cycling.jpg" class="card-img-top" alt="FITNESS CLUB">
+              <div class="custom-card-container">
+                <h5 class="custom-card-title">CYCLYING</h5>
+                <p class="custom-card-text">Pedal your way to fitness with our exhilarating cycling sessions, perfect for building endurance, strength, and cardiovascular health.</p>
+                
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3">
+            <div class="custom-card">
+              <img src="tennis.jpg" class="card-img-top" alt="FITNESS CLUB">
+              <div class="custom-card-container">
+                <h5 class="custom-card-title">TENNIS</h5>
+                <p class="custom-card-text">Enjoy a game of tennis on our premium courts, perfect for all skill levels and competitive play.</p>
+                
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+          
+          
+    <footer class="footer text-white py-5 ">
+        <div class="container">
+          <div class="row">
+            <!-- Payment Options -->
+            <div class="col-md-3 mb-4">
+              <h5 class="text-uppercase">Payment Methods</h5>
+              <div class="d-flex flex-wrap">
+                <img src="HBL-logo.png" alt="Visa" class="me-2 mb-2" style="width: 50px;">
+                <img src="ubl.png" alt="PayPal" class="me-2 mb-2" style="width: 50px;">
+                <img src="silk.png" alt="Apple Pay" class="me-2 mb-2" style="width: 50px;">
+                <!-- Add more payment icons as needed -->
+              </div>
+            </div>
+    
+            <!-- Links -->
+            <div class="col-md-3 mb-4">
+              <h5 class="text-uppercase">Information</h5>
+              <ul class="list-unstyled">
+                <li><a href="aboutus.html" class="text-white text-decoration-none">About Us</a></li>
+                <li><a href="contactus.html" class="text-white text-decoration-none">Contact Us</a></li>
+                <li><a href="gallery.html" class="text-white text-decoration-none">Gallery</a></li>
+                <li><a href="membership.html" class="text-white text-decoration-none">Membership</a></li>
+              </ul>
+            </div>
+    
+            <!-- Social Media -->
+            <div class="col-md-3 mb-4">
+              <h5 class="text-uppercase">Social Media</h5>
+              <a href="#" class="text-white me-3"><i class="bi bi-facebook"></i></a>
+              <a href="#" class="text-white me-3"><i class="bi bi-instagram"></i></a>
+              <a href="#" class="text-white me-3"><i class="bi bi-youtube"></i></a>
+              <a href="#" class="text-white"><i class="bi bi-pinterest"></i></a>
+            </div>
+    
+            <!-- Newsletter -->
+            <div class="col-md-3 mb-4">
+              <h5 class="text-uppercase">Join Us</h5>
+              <p>Subscribe to our newsletter to be informed about new updates.</p>
+              <form>
+                <div class="input-group">
+                  <input type="email" class="form-control" placeholder="E-Mail Address">
+                  <button class="btn btn-light" type="submit">Send</button>
+                </div>
+              </form>
+            </div>
+          </div>
+          <div class="text-center mt-4">
+            <small>© 2024 by YourCompany. All rights reserved.</small>
+          </div>
+        </div>
+      </footer>
+    
+</body>
+</html>
